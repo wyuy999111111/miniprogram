@@ -1,0 +1,15 @@
+/* pages/subpage/subpage.wxss */
+
+.sunrise {
+  font-size: 50px;
+  text-align: center;
+  margin: 10px;
+  height: 280px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: rgb(49, 52, 54);
+  background-image: linear-gradient(to right, #ff9569 0%, #e92758 100%);
+  font-family: "微软雅黑";
+}

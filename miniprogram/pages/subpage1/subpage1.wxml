@@ -1,0 +1,4 @@
+<!--pages/subpage1/subpage1.wxml-->
+<view>
+  <text class="sunset">{{daily_forecast.ss}}PM</text>
+</view>

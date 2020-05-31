@@ -1,0 +1,99 @@
+.container {
+  margin: 10px;
+  height: 280px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.wendu {
+  padding-left: 13px;
+  font-size: 50px;
+  color: #3c5f81;
+}
+
+.miaoshu {
+  padding-right: 5px;
+  font-size: 25px;
+  color: #3c5f81;
+}
+
+.left {
+  font-family: Heiti;
+  text-align: left;
+}
+
+.img {
+  width: 230rpx;
+  height: 200rpx;
+}
+
+.bot {
+  padding: 25rpx;
+  margin: 10px;
+  background: white;
+  height: 30%;
+}
+
+.time {
+  float: right;
+}
+
+.tips {
+  text-align: left;
+  float: left;
+  color: rgb(78, 82, 85);
+}
+
+.detail {
+  margin: 0 10px 10px 10px;
+  font-size: 16px;
+}
+
+.bar {
+  display: flex;
+  flex-direction: row;
+  margin: 0 5px 0 5px;
+}
+
+.box {
+  line-height: 36px;
+  padding-top: 10px;
+  width: 33.3%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  height: 85px;
+  margin: 0 5px 0 5px;
+  color: rgb(78, 82, 85);
+}
+
+.size {
+  color: #babfc3;
+  font-size: 14px;
+}
+
+.button {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 50%;
+  height: 50px;
+  text-align: center;
+  color: rgb(49, 53, 56);
+  font-size: 16px
+}
+
+.b1 {
+  background-image: linear-gradient(to right, #ff9569 0%, #e92758 100%);
+  font-family: "微软雅黑";
+}
+
+.b2 {
+  background-image: linear-gradient(-90deg, #29bdd9 0%, #276ace 100%);
+  font-family: "微软雅黑";
+}

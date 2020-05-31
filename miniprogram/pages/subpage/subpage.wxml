@@ -1,0 +1,3 @@
+<view>
+<text class="sunrise">{{daily_forecast.sr}}AM</text>
+</view>

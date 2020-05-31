@@ -1,0 +1,14 @@
+/* pages/subpage1/subpage1.wxss */
+.sunset {
+  font-size: 50px;
+  text-align: center;
+  margin: 10px;
+  height: 280px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: rgb(49, 52, 54);
+  background-image: linear-gradient(-90deg, #29bdd9 0%, #276ace 100%);
+  font-family: "微软雅黑";
+}

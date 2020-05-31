@@ -1,0 +1,42 @@
+<view class="container">
+  <text class="left">{{city}}市 </text>
+  <image wx:if='{{now.cond_code}}' class="img" src="/images/{{now.cond_code}}.png"></image>
+  <text class="wendu">{{now.tmp}}°</text>
+  <text class="miaoshu">{{now.cond_txt}}</text>
+</view>
+<view class="button">
+<button class="b1" bindtap="jumpComment">日出时间</button>
+<button class="b2" bindtap="jumpCommenty">日落时间</button>
+</view>
+<view class="bar">
+  <view class="box">
+    <text>{{daily_forecast.tmp_max}}°~{{daily_forecast.tmp_min}}°</text>
+    <text class="size">今天·{{daily_forecast.cond_txt_d}}</text>
+  </view>
+  <view class="box">
+    <text>{{daily_forecast1.tmp_max}}°~{{daily_forecast.tmp_min}}°</text>
+    <text class="size">明天·{{daily_forecast1.cond_txt_d}}</text>
+  </view>
+  <view class="box">
+    <text>{{daily_forecast2.tmp_max}}°~{{daily_forecast.tmp_min}}°</text>
+    <text class="size">后天·{{daily_forecast2.cond_txt_d}}</text>
+  </view>
+</view>
+<view class="bot">
+  <text class="tips">出行指数:{{lifestyle1.txt}}</text>
+  <text class="tips">舒适指数:{{lifestyle.txt}}</text>
+</view>
+<van-grid class='detail' column-num="3">
+  <van-grid-item text="湿度" />
+  <van-grid-item text="气压" />
+  <van-grid-item text="能见度" />
+  <van-grid-item text="{{now.hum}}%" />
+  <van-grid-item text="{{now.pres}}hPa" />
+  <van-grid-item text="{{now.vis}}Km" />
+  <van-grid-item text="风向" />
+  <van-grid-item text="风速" />
+  <van-grid-item text="风力" />
+  <van-grid-item text="{{now.wind_dir}}" />
+  <van-grid-item text="{{now.wind_spd}}Km" />
+  <van-grid-item text="{{now.wind_sc}}级" />
+</van-grid>
